@@ -27,6 +27,7 @@ public class OrderItemPK implements Serializable{
 	public void setProduct(Product product) {
 		this.product = product;
 	}
+	
 	public Order getOrder() {
 		return order;
 	}
